@@ -1,6 +1,8 @@
 // src/pages/Dashboard.jsx
 import React from 'react';
 import StatsCard from '../components/StatsCard';
+import RevenueChart from '../components/RevenueChart';
+import UpcomingAlerts from '../components/UpcomingAlerts';
 
 export default function Dashboard() {
   return (
@@ -14,6 +16,8 @@ export default function Dashboard() {
         <StatsCard title="Pending Payments" value="₹15,000" type="pending" />
         <StatsCard title="May Revenue" value="₹25,000" type="month" />
       </div>
+      <RevenueChart />
+      <UpcomingAlerts />
     </div>
   );
 }
