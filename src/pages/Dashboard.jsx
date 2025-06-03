@@ -1,3 +1,5 @@
+// src/pages/Dashboard.jsx
+import React from 'react';
 import StatsCard from '../components/StatsCard';
 import RevenueChart from '../components/RevenueChart';
 import UpcomingAlerts from '../components/UpcomingAlerts';
